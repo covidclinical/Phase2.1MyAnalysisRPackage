@@ -21,7 +21,7 @@ runAnalysis <- function() {
     ## To Do: implement analytic workflow, saving results to a site-specific 
     ## file to be sent to the coordinating site later via submitAnalysis()
 
-    currSiteId = "Harvard"
+    currSiteId = "Bordeaux"
     ## Save results to appropriately named files for submitAnalysis(), e.g.:
     write.csv(
        matrix(rnorm(100), ncol=5), 
